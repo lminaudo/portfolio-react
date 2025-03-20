@@ -14,7 +14,7 @@ const Home = () => {
                     </h1>
                     <p>Software Engineer specializing in IT solutions, embedded systems, and innovative software
                         development.</p>
-                    <Link to="/experience" className="cta">Vie w My Experience</Link>
+                    <Link to="/experience" className="cta">View My Experience</Link>
                     <Link to="/contact" className="cta">Get in Touch</Link>
                 </div>
             </section>

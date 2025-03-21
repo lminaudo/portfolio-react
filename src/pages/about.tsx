@@ -3,9 +3,10 @@ import ProfilePic from "/assets/profile.jpeg";
 import SportsCar from "/assets/sport-car-svgrepo-com.svg";
 import GradHat from "/assets/graduation-hat-and-diploma-svgrepo-com.svg";
 import {Link} from "react-router-dom";
+
 const About = () => {
     return (
-        <div className="main-body">
+        <>
             <div className="about-container">
                 <div className="page-header">
                     <h1>About Me</h1>
@@ -105,7 +106,7 @@ const About = () => {
                     </Animation>
                 </div>
             </div>
-        </div>
+        </>
     );
 }
 

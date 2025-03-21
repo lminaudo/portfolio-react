@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 
 const Home = () => {
     return (
-        <div>
+        <>
             <section id="hero">
                 <div>
                     <h1>&#x1F44B;&#127995; Hello, I'm Logan Minaudo
@@ -63,7 +63,7 @@ const Home = () => {
                 </div>
 
             </section>
-        </div>
+        </>
     );
 }
 

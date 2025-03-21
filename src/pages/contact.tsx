@@ -1,7 +1,7 @@
 
 const Contact = () => {
     return (
-        <div>
+        <>
             <div className="page-header">
                 <h1>Contact</h1>
             </div>
@@ -32,7 +32,7 @@ const Contact = () => {
                     <i className="cta-icon">⬇️</i>
                 </a>
             </section>
-        </div>
+        </>
     );
 };
 

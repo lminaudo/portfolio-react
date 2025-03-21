@@ -1,6 +1,6 @@
 const Experience = () => {
     return (
-        <div>
+        <>
             <div className="page-header">
                 <h1>Projects & Experience</h1>
             </div>
@@ -59,8 +59,6 @@ const Experience = () => {
                     </div>
                 </div>
             </section>
-
-
             <section className="resume-download">
                 <h3>Interested in learning more about my experience?</h3>
                 <p>Download my resume to see how I can contribute to your team.</p>
@@ -69,7 +67,7 @@ const Experience = () => {
                     <i className="cta-icon">⬇️</i>
                 </a>
             </section>
-        </div>
+        </>
     );
 };
 

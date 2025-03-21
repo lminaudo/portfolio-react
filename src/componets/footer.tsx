@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <p>© 2025 Logan Minaudo - Built With React</p>
+            <p>© 2025 Logan Minaudo - Built With React &#9829;</p>
 
             <div className="social-links">
                 <a href="https://github.com/lminaudo" target="_blank">GitHub</a> |

@@ -57,20 +57,20 @@ const Experience = () => {
                             <li>HTML/CSS</li>
                         </ul>
                     </div>
-                    <div className="project-card">
-                        <h3>My Portfolio Site</h3>
-                        <p>
-                            This site is built using React, CSS, and HTML. It's hosted on a Proxmox server running on-premises with Node.js and npm for managing dependencies and building the application. It showcases my work in web development and software engineering.
-                        </p>
-                        <ul className="technologies">
-                            <li>React</li>
-                            <li>CSS</li>
-                            <li>HTML</li>
-                            <li>Node.js</li>
-                            <li>npm</li>
-                            <li>Proxmox (on-prem server)</li>
-                        </ul>
-                    </div>
+                    {/*<div className="project-card">*/}
+                    {/*    <h3>My Portfolio Site</h3>*/}
+                    {/*    <p>*/}
+                    {/*        This site is built using React, CSS, and HTML. It's hosted on a Proxmox server running on-premises with Node.js and npm for managing dependencies and building the application. It showcases my work in web development and software engineering.*/}
+                    {/*    </p>*/}
+                    {/*    <ul className="technologies">*/}
+                    {/*        <li>React</li>*/}
+                    {/*        <li>CSS</li>*/}
+                    {/*        <li>HTML</li>*/}
+                    {/*        <li>Node.js</li>*/}
+                    {/*        <li>npm</li>*/}
+                    {/*        <li>Proxmox (on-prem server)</li>*/}
+                    {/*    </ul>*/}
+                    {/*</div>*/}
 
                 </div>
             </section>

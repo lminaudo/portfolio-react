@@ -10,7 +10,7 @@ const Home = () => {
         <>
             <section id="hero">
                 <div>
-                    <h1>&#x1F44B;&#127995; Hello, I'm Logan Minaudo
+                    <h1>&#x1F44B;&#127995; Hello, I'm Logan Minaudo!
                     </h1>
                     <p>Software Engineer specializing in IT solutions, embedded systems, and innovative software
                         development.</p>

@@ -95,6 +95,7 @@ const About = () => {
                             <li className="projects-list">
                                 <strong>Portflio Website: </strong> I created a responsive portfolio website using JavaScript, Node.js, CSS, and HTML, 
                                 incorporating reusable components and smooth animations, hosted on my Proxmox server.
+                                <br/><em>Technologies: </em> Proxmox, React, JavaScript, HTML/CSS, Node.js, npm
                             </li>
                         </ul>
                     </section>

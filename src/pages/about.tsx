@@ -92,6 +92,10 @@ const About = () => {
                                 to collect and display competition metrics live.
                                 <br/><em>Technologies: </em> AWS, Raspberry Pi, Python, JavaScript, HTML/CSS, SQL
                             </li>
+                            <li className="projects-list">
+                                <strong>Portflio Website: </strong> I created a responsive portfolio website using JavaScript, Node.js, CSS, and HTML, 
+                                incorporating reusable components and smooth animations, hosted on my Proxmox server.
+                            </li>
                         </ul>
                     </section>
                     <Animation animationClass="driving-left">

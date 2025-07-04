@@ -112,22 +112,22 @@ const About = () => {
                         <h3>Education</h3>
 
                         <ul className="projects-list">
-                            <li>
-                                <div className="degree-line">
+                            <li className="projects-list">
+                                <div>
                                     <strong>Master of Business Administration</strong> - Louisiana State University -
                                     Shreveport <br/>
                                     <em>Specialization: </em>Project Management
                                 </div>
                             </li>
-                            <li>
-                                <div className="degree-line">
+                            <li className="projects-list">
+                                <div>
                                     <strong>M.S. Computer Science and Information Systems</strong> - University of
                                     Michigan - Flint <br/>
                                     <em>Concentration: </em>Computer Science
                                 </div>
                             </li>
-                            <li>
-                                <div className="degree-line">
+                            <li className="projects-list">
+                                <div>
                                     <strong>B.S. Computer Science</strong> - University of Michigan - Flint <br/>
                                     <em>Minor: </em>General Business
                                 </div>

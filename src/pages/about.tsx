@@ -66,7 +66,8 @@ const About = () => {
                         <h3>Highlighted Projects</h3>
                         <ul className="projects-list">
                             <li className="projects-list">
-                                <div><strong>EPCC Projects:</strong> Unified software streams to ensure compliance with
+                                <strong>EPCC Projects:</strong>
+                                <div>Unified software streams to ensure compliance with
                                     GM
                                     and
                                     industry standards. Enhanced EV/PHEV algorithms, conducted HIL testing, and resolved
@@ -75,13 +76,14 @@ const About = () => {
                                 </div>
                             </li>
                             <li className="projects-list">
-                                <div><strong>SAP Projects:</strong> Optimized tax calculations and streamlined
+                                <strong>SAP Projects:</strong>
+                                <div>Optimized tax calculations and streamlined
                                     documentation
                                     for
                                     the VELO module. Developed global accounting interfaces, custom tax reports, and
                                     extended
                                     payment letter functionalities.
-                                    <em>Technologies: </em> SQL, ABAP
+                                    <br/><em>Technologies: </em> SQL, ABAP
                                 </div>
                             </li>
                             <li className="projects-list">

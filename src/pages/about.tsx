@@ -44,7 +44,7 @@ const About = () => {
                     <Animation animationClass="driving">
                         <section className="two-column">
                             <div className="main">
-                                <img src={GradHat} alt="car"/>
+                                <img src={GradHat} alt="graduation hat"/>
                             </div>
                             <div className="secondary">
                                 <h3>Expertise</h3>
@@ -66,36 +66,69 @@ const About = () => {
                         <h3>Highlighted Projects</h3>
                         <ul className="projects-list">
                             <li className="projects-list">
-                                <strong>EPCC Projects:</strong> Unified software streams to ensure compliance with
-                                GM
-                                and
-                                industry standards. Enhanced EV/PHEV algorithms, conducted HIL testing, and resolved
-                                software dependencies.
-                                <br/><em>Technologies: </em> C/C++, HIL Bench
+                                <div><strong>EPCC Projects:</strong> Unified software streams to ensure compliance with
+                                    GM
+                                    and
+                                    industry standards. Enhanced EV/PHEV algorithms, conducted HIL testing, and resolved
+                                    software dependencies.
+                                    <br/><em>Technologies: </em> C/C++, HIL Bench
+                                </div>
                             </li>
                             <li className="projects-list">
-                                <strong>SAP Projects:</strong> Optimized tax calculations and streamlined
-                                documentation
-                                for
-                                the VELO module. Developed global accounting interfaces, custom tax reports, and
-                                extended
-                                payment letter functionalities.
-                                <em>Technologies: </em> SQL, ABAP
+                                <div><strong>SAP Projects:</strong> Optimized tax calculations and streamlined
+                                    documentation
+                                    for
+                                    the VELO module. Developed global accounting interfaces, custom tax reports, and
+                                    extended
+                                    payment letter functionalities.
+                                    <em>Technologies: </em> SQL, ABAP
+                                </div>
                             </li>
                             <li className="projects-list">
-                                <strong>NASA Rover Challenge Dashboard:</strong> Built a real-time data
-                                visualization
-                                and
-                                monitoring platform for NASA's Rover Challenge. Designed using AWS, Raspberry Pi,
-                                and
-                                Python
-                                to collect and display competition metrics live.
-                                <br/><em>Technologies: </em> AWS, Raspberry Pi, Python, JavaScript, HTML/CSS, SQL
+                                <strong>NASA Rover Challenge Dashboard:</strong>
+                                <div>Built a real-time data
+                                    visualization
+                                    and
+                                    monitoring platform for NASA's Rover Challenge. Designed using AWS, Raspberry Pi,
+                                    and
+                                    Python
+                                    to collect and display competition metrics live.
+                                    <br/><em>Technologies: </em> AWS, Raspberry Pi, Python, JavaScript, HTML/CSS, SQL
+                                </div>
                             </li>
                             <li className="projects-list">
-                                <strong>Portflio Website: </strong> I created a responsive portfolio website using JavaScript, Node.js, CSS, and HTML, 
-                                incorporating reusable components and smooth animations, hosted on my Proxmox server.
-                                <br/><em>Technologies: </em> Proxmox, React, JavaScript, HTML/CSS, Node.js, npm
+                                <strong>Portflio Website: </strong>
+                                <div>I created a responsive portfolio website using JavaScript, Node.js, CSS, and HTML,
+                                    incorporating reusable components and smooth animations, hosted on my Proxmox
+                                    server.
+                                    <br/><em>Technologies: </em> Proxmox, React, JavaScript, HTML/CSS, Node.js, npm
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Education</h3>
+
+                        <ul className="projects-list">
+                            <li>
+                                <div className="degree-line">
+                                    <strong>Master of Business Administration</strong> - Louisiana State University -
+                                    Shreveport <br/>
+                                    <em>Specialization: </em>Project Management
+                                </div>
+                            </li>
+                            <li>
+                                <div className="degree-line">
+                                    <strong>M.S. Computer Science and Information Systems</strong> - University of
+                                    Michigan - Flint <br/>
+                                    <em>Concentration: </em>Computer Science
+                                </div>
+                            </li>
+                            <li>
+                                <div className="degree-line">
+                                    <strong>B.S. Computer Science</strong> - University of Michigan - Flint <br/>
+                                    <em>Minor: </em>General Business
+                                </div>
                             </li>
                         </ul>
                     </section>

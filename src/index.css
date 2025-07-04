@@ -268,10 +268,11 @@ body {
 
 .projects-list {
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;*/
+    flex-direction: column; /* NEW! */
     text-align: left;
     list-style-type: none;
-    padding: 0 0 0 0;
+    padding: 0;
 }
 
 .projects-list li {
@@ -533,4 +534,26 @@ footer .social-links a:hover {
     .logo img {
         height: 12.5rem;
     }
+}
+.education-section {
+    margin: 2rem 0;
+}
+
+.education-list {
+    list-style: none;
+    padding: 0;
+}
+
+.education-item {
+    margin-bottom: 1.5rem;
+}
+
+.degree-line {
+    white-space: nowrap;
+    margin-bottom: 0.25rem;
+}
+
+.specialization {
+    color: #666;
+    margin-left: 1rem;
 }

@@ -6,7 +6,7 @@ spec:
   entryPoints:
     - websecure  # Port 443
   routes:
-    - match: Host(`dev.loganminaudo.com`) # Change this to your actual domain
+    - match: Host(`loganminaudo.com`) # Change this to your actual domain
       kind: Rule
       services:
         - name: loganminaudo-website-service
@@ -24,7 +24,7 @@ spec:
   entryPoints:
     - web
   routes:
-    - match: Host(`dev.loganminaudo.com`)
+    - match: Host(`loganminaudo.com`)
       kind: Rule
       services:
         - name: loganminaudo-website-service

@@ -5,6 +5,7 @@ import About from "../pages/about";
 import Contact from "../pages/contact";
 import Experience from "../pages/experience";
 import {Route, Routes} from "react-router-dom";
+import NotFound from "../pages/NotFound.tsx";
 
 const Layout = () => {
     return (
@@ -19,6 +20,7 @@ const Layout = () => {
                     <Route path="/about" element={<About/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/experience" element={<Experience/>}/>
+                    <Route path="*" element={<NotFound/>} />
                 </Routes>
             </main>
 

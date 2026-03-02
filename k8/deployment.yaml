@@ -20,7 +20,7 @@ spec:
         - name: dockerhub-conf
       containers:
         - name: loganminaudo-website
-          image: loganminaudo/loganminaudo-website:6f083a75da1f8aee9045860dfbab8af7237bb6dc
+          image: loganminaudo/loganminaudo-website:dd213db857772114d64eda32f9e80d5391384ee0
           # This tells K8s to always check for a new image even if the tag is the same
           imagePullPolicy: Always
           ports:

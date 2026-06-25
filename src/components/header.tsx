@@ -1,13 +1,13 @@
 import {Link} from 'react-router-dom';
-import LogoBig from '/assets/LogoBig.png'
+import LogoBig from '/assets/4.svg'
 
 const Header = () => {
     return (
-        <div className="container">
+        <div className="container main-header">
             <div className="logo">
-                <a href="/" aria-label="Navigate to Home">
+                <Link to="/" aria-label="Navigate to Home">
                     <img rel="preload" src={LogoBig} alt="Logan Minaudo Logo"/>
-                </a>
+                </Link>
             </div>
             <nav className="main-nav">
                 <ul>

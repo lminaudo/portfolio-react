@@ -1,15 +1,15 @@
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
-  name: loganminaudo-website-tls
+  name: loganminaudo-dev-website-tls
 spec:
   entryPoints:
     - websecure  # Port 443
   routes:
-    - match: Host(`loganminaudo.com`) # Change this to your actual domain
+    - match: Host(`dev.loganminaudo.com`)
       kind: Rule
       services:
-        - name: loganminaudo-website-service
+        - name: loganminaudo-dev-website-service
           port: 80
   tls:
     certResolver: myresolver # The name of your Let's Encrypt resolver in Traefik
@@ -19,15 +19,15 @@ spec:
 apiVersion: traefik.io/v1alpha1
 kind: IngressRoute
 metadata:
-  name: loganminaudo-website-http
+  name: loganminaudo-dev-website-http
 spec:
   entryPoints:
     - web
   routes:
-    - match: Host(`loganminaudo.com`)
+    - match: Host(`dev.loganminaudo.com`)
       kind: Rule
       services:
-        - name: loganminaudo-website-service
+        - name: loganminaudo-dev-website-service
           port: 80
       # THIS IS WHERE YOU USE THE MIDDLEWARE:
       middlewares:

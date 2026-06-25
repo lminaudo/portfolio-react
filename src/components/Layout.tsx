@@ -24,9 +24,7 @@ const Layout = () => {
                 </Routes>
             </main>
 
-            <footer>
-                <Footer/>
-            </footer>
+            <Footer/>
         </div>
     );
 };

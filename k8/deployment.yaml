@@ -1,26 +1,25 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: loganminaudo-website
+  name: loganminaudo-website-dev
   labels:
-    app: loganminaudo-website
+    app: loganminaudo-website-dev
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
-      app: loganminaudo-website
+      app: loganminaudo-website-dev
   template:
     metadata:
       labels:
-        # Fixed the typo here (removed the extra 'd')
-        app: loganminaudo-website
+        app: loganminaudo-website-dev
     spec:
       # Add this so K8s can pull from your Docker Hub if it's private
       imagePullSecrets:
         - name: dockerhub-conf
       containers:
         - name: loganminaudo-website
-          image: loganminaudo/loganminaudo-website:dd213db857772114d64eda32f9e80d5391384ee0
+          image: loganminaudo/loganminaudo-website:dev-978e0cf79c823f247c093bf516e892bbab3ff204
           # This tells K8s to always check for a new image even if the tag is the same
           imagePullPolicy: Always
           ports:

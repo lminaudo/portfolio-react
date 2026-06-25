@@ -1,7 +1,7 @@
 name: Build and Push
 on:
   push:
-    branches: [ "K8" ]
+    branches: [ "K8", "DevK8" ]
 
 jobs:
   build:

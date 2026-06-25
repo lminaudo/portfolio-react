@@ -16,9 +16,9 @@ spec:
     spec:
       # Add this so K8s can pull from your Docker Hub if it's private
       imagePullSecrets:
-        - name: dockerhub-conf-dev
+        - name: dockerhub-conf
       containers:
-        - name: loganminaudo-website-dev
+        - name: loganminaudo-website
           image: loganminaudo/loganminaudo-website:dev-debcd95ed42fa7e447abee1c29bdd81e2d2f2b1a
           # This tells K8s to always check for a new image even if the tag is the same
           imagePullPolicy: Always

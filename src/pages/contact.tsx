@@ -1,3 +1,4 @@
+import ResumeDownload from "../components/ResumeDownload";
 
 const Contact = () => {
     return (
@@ -19,19 +20,12 @@ const Contact = () => {
                     <li>
                         <span className="contact-icon">&#x1F5A5;</span>
                         LinkedIn:
-                        <a href="https://www.linkedin.com/in/logan-minaudo/" target="_blank">Logan Minaudo</a>
+                        <a href="https://www.linkedin.com/in/logan-minaudo/" target="_blank" rel="noopener noreferrer">Logan Minaudo</a>
                     </li>
                 </ul>
             </section>
 
-            <section className="resume-download">
-                <h3>Interested in learning more about my experience?</h3>
-                <p>Download my resume to see how I can contribute to your team.</p>
-                <a href="/assets/LoganMinaudoResume.pdf" download className="cta">
-                    <span className="cta-text">Download My Resume</span>
-                    <i className="cta-icon">⬇️</i>
-                </a>
-            </section>
+            <ResumeDownload/>
         </>
     );
 };

@@ -1,8 +1,6 @@
-import CodeImg from '/assets/code.svg';
-import DatabaseImg from '/assets/database.svg';
-import CloudsImg from '/assets/clouds.svg';
-import CheckImg from '/assets/check.svg';
-import Animation from "../componets/Animation";
+import Animation from "../components/Animation";
+import SkillCard from "../components/SkillCard";
+import {skills} from "../data/skills";
 import {Link} from "react-router-dom";
 
 const Home = () => {
@@ -19,40 +17,17 @@ const Home = () => {
                 </div>
             </section>
             <section id="skills">
-                <Animation animationClass='zoomanimation'>
-
-                    <h2>My Skills</h2>
-                    <div className="skills-grid">
-                        <Animation animationClass='zoomanimation'>
-                            <div className="skill">
-                                <img src={CodeImg} alt="Programming"/>
-                                <p>C/C++, Python, ABAP, HTML/CSS, JavaScript</p>
-                            </div>
+                <h2>My Skills</h2>
+                <div className="skills-grid">
+                    {skills.map((skill) => (
+                        <Animation key={skill.name} animationClass='zoomanimation'>
+                            <SkillCard {...skill} />
                         </Animation>
-                        <Animation animationClass='zoomanimation'>
-                            <div className="skill">
-                                <img src={DatabaseImg} alt="Database"/>
-                                <p>MySQL, SAP HANA</p>
-                            </div>
-                        </Animation>
-                        <Animation animationClass='zoomanimation'>
-                            <div className="skill">
-                                <img src={CloudsImg} alt="Cloud Computing"/>
-                                <p>Google Cloud, AWS, Embedded Systems</p>
-                            </div>
-                        </Animation>
-                        <Animation animationClass='zoomanimation'>
-                            <div className="skill">
-                                <img src={CheckImg} alt="Testing"/>
-                                <p>HIL Testing, Unit Testing</p>
-                            </div>
-                        </Animation>
-                    </div>
-                </Animation>
+                    ))}
+                </div>
             </section>
-            <section id="hero">
+            <section id="about-preview">
                 <div>
-
                     <h2>About Me</h2>
                     <p>I'm passionate about solving real-world problems through technology. My work spans embedded
                         systems,
@@ -61,7 +36,6 @@ const Home = () => {
                     </p>
                     <Link to="/about" className="cta">Learn More</Link>
                 </div>
-
             </section>
         </>
     );

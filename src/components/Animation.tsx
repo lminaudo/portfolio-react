@@ -35,7 +35,7 @@ const Animation = ({children, animationClass}: AnimationProps) => {
         return () => {
             observer.disconnect();
         };
-    }, [animationClass]);
+    }, []);
     return (
         <div ref={animationRef} className={animationClass}>
             {children}
